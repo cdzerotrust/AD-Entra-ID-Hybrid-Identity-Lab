@@ -75,11 +75,14 @@ Remove-Item -Recurse -Force "HKLM:\SOFTWARE\Microsoft\Azure AD Connect"
 Remove-Item -Recurse -Force "HKLM:\SOFTWARE\Microsoft\AD Sync"
 
 ☁️ Cleaned Entra ID
+
 Removed stale provisioning applications:
 ConnectSyncProvisioning_AD-DC01_*
+
 🔄 Reinstalled Entra Connect
-Performed clean installation
+Performed a clean installation
 Reconfigured sync and OU filtering
+
 Re-enabled SSO
 ✅ Successful Deployment
 
